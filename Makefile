@@ -15,7 +15,7 @@ VERSION := $(shell bin/get_version.sh --version)
 RELEASE := $(shell bin/get_version.sh --release)
 FULL    := $(shell bin/get_version.sh --full)
 
-PREFIX  := /usr/local
+PREFIX  := /app
 
 CFG_DIR := $(PREFIX)/etc
 BIN_DIR := $(PREFIX)/bin
